@@ -1,0 +1,1 @@
+[{ "id": 1, "hostname": "AASDAS", "betriebssystem": "asdas", "bezeichnung": "asd", "abteilung": "ASD", "lieferdatum": "2022-06-12" }, { "id": 2, "hostname": "asd", "betriebssystem": "asdas", "bezeichnung": "ASDAS", "abteilung": "asdasd", "lieferdatum": "2022-06-18" }]

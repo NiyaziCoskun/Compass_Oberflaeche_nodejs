@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff;
+    font-family: sans-serif;
+}
+
+.btn {
+    background: tomato;
+    border: 1px solid tomato;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #fff;
+    color: tomato;
+    border: 1px solid tomato;
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: tomato;
+    color: white;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main form {
+    width: clamp(300px, 50vw, 500px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.form-control input {
+    width: 100%;
+    height: 48px;
+    padding: 0 8px;
+    border: 1px solid tomato;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.form-control input::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.form-control input:focus {
+    border-color: gray;
+}
+
+.form-control label {
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 3px;
+}
+
+.form-submit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-submit button {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ccc;
+}
+
+table tr {
+    border-bottom: 1px solid #ccc;
+}
+
+table th,
+table td {
+    padding: 8px 16px;
+    text-align: left;
+    border-right: 1px solid #ccc;
+}
